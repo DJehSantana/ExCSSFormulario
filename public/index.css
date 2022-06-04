@@ -13,12 +13,12 @@ h1{
     text-shadow: 3px 3px 4px rgb(126, 15, 43); 
 }
 
-form > div, fieldset{
-    margin-bottom: 10px;
+footer{
+    margin-top: 20px;
 }
 
-textarea{
-    vertical-align: text-top;
+form > div, fieldset{
+    margin-bottom: 10px;
 }
 
 fieldset{
@@ -47,10 +47,14 @@ legend{
     padding: 10px 0;
 }
 
+textarea{
+    vertical-align: text-top;
+}
+
 .enviar{
     background-color: darkgrey;
     border: 2px solid darkblue;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 80px;
     height: 40px;
     font-weight: bold;
@@ -62,6 +66,23 @@ legend{
     width: 50%;
     background-color: #fff;
     border: 2px solid darkblue;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
+#assunto, #data{
+    padding: 5px;
+    width: 20%;
+    background-color: #fff;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+}
+
+#mensagem{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    width: 50%;
+    min-height: 100px;
+    background-color: #fff;
+    border: 2px solid darkblue;
+    border-radius: 10px;    
+}
